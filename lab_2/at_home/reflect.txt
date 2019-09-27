@@ -1,0 +1,33 @@
+/***********************************************************
+// Workshop 2: Dynamic Memory
+// File w2_at_home.cpp
+// Version 2.0
+// Date May 24
+// Author Yuki Waka
+// Description
+// Practice for allocate and deallocate dynamic memory 
+//for an array of element
+//
+// Revision History
+///////////////////////////////////////////////////////////
+// Name     Date    Reason
+//Yuki Waka   May 24
+///////////////////////////////////////////////////////////
+***********************************************************/
+
+
+1. When you increase the size of an existing array of dynamically allocated memory, you need to allocate  new dynamic memory.
+It can expand the size of memory, since dynamic memory is for saving memory and load-time. In this workshop, I made ‘pKingdom' first, 
+and after I got input from client, I made ‘pKing2’  to increase the size of array. I coped original one to new one, and then deleted 
+original one using ‘delete [] pointer’.
+
+2.Kingdom strutter stored the name of the kingdom in an array, but It didn’t need dynamic memory, 
+so ‘pointer = new Type [size]’is not used for the name of the array. Keyword ‘new’ and ‘delete’ comes in set usually. 
+In this case, delete operator was’t needed, because new operator  wasn’t used.
+
+3 .Compiler determine the definition by function identifier, the parameter types and the order of the parameter types. 
+It called Overloaded function. In this workshop, there are two ‘display()..’function which are exactly the same name, 
+but parameter are different. When it’s called in main function, compiler see the parameter and find appropriate function.  
+
+4.In this workshop, I’ve learned how to allocate and deallocate dynamic memory for an array of elements 
+using new and delete operators. Also I did good practice for using overloaded function. 

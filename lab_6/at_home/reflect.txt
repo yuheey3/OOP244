@@ -1,0 +1,22 @@
+// Workshop 6 - Class with a Resource
+// w6_in_lab.cpp
+// OOP244
+// Yuki Waka
+// 2019/07/06
+
+1)Why does the copy assignment operator check for self-assignment before do-ing anything else? 
+What could go wrong if the operator doesn’t check for self-assignment?
+
+The copy assignment operator contains the logic for copying data from an existing object 
+to an existing object. we compare the address of the current object to the address 
+of the source object.  If the addresses match, we skip the assignment logic altogether.  
+If we ignore to check for self-assignment, the deallocation statement would release 
+the memory holding the resource data and we would lose access to the source resource.
+
+2)List examples of how you avoided code duplication.
+To avoid the code duplication, I used isEmpty()function few times.
+By calling this function, I didn't need to use the same code to check if the code is
+empty or not.
+
+3) In this workshop, I have learned how to define copy constructor and assignment operator.
+Also I tried to avoid duplicate code as soon as possible.

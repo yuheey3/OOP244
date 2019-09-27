@@ -1,0 +1,44 @@
+/*************************************************
+Name: Yuki Waka
+Student Number: 141082180
+Course:OOP SCC
+**************************************************/
+
+1.Safe empty state can initialize an object’s instance variables in a constructor. 
+In this workshop, when the passenger name and destination is not valid, the name and 
+the destination are set to a safe empty state. By doing this, it is ready to receive 
+the new variables. ex) theDestination = ‘\0’;
+The safe empty state is '\0', while the empty state is noting like 'NULL'.
+
+2.I used 'strcmp' to compare character array, it helped to compare two character array
+without using loop. It makes easy to read the code. 
+ex) if(strcmp(theDestination, des.theDestination) == 0)
+
+3. When we want to access private data, we can make new function which located in
+the inside the class. Inside the class, it can access to private object.  
+This is for proctecting from other possible changes.
+
+4. I used strcmp function instead of the strncpy function. When I used this, 
+I did 'if(strcmp(theDestination, des.theDestination) == 0)' 
+When theDestination and the des.Destination are the same, it retuens 0.
+
+5.In this workshop, I have learned how to define a constructor that initializes 
+an object's data. Also the conception of the safe empty state. 
+urthermore, I practiced making overloading as well.
+
+/**************************************************************************/
+Quiz 3 Reflection
+
+1.What is the difference between a class and object?
+*Mistake
+-I didn't describe the concept of object.
+*Answer 
+-The object is an intance of a class, while class is used to attach data and
+its associated functions together, it is similer to structure in C language.
+
+5.When is a destructure invoked?
+*Mistake
+-I couldn't explain what is the destructure exactly.
+*Answer
+-When a stack variable goes out of scope, its destructor is called.
+

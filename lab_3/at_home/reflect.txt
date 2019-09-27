@@ -1,0 +1,24 @@
+/**********************************************************
+// Workshop 3: Classes and Privacy
+// w3_at_home.cpp
+// Version 3.0
+// 2019/05/19
+// Cornel
+// Description
+// This workshop demonstrates classes in C++ and
+// how member variables are defined privately, but
+// accessed through public member functions
+//
+// Revision History
+///////////////////////////////////////////////////////////
+// Name     Date              Reason
+// Yuki Waka    2019/06/03            allow longer names
+///////////////////////////////////////////////////////////
+**********************************************************/
+1.Null means nothing. Its just a literal. Null is the value of reference variable. But empty string is blank.It gives the length=0. Empty string is a blank value,means the string does not have any thing. In this workshop, I used ’NULL’ when I check condition.
+
+2. It is Overloading. In this workshop, there are two ‘set’ functions. code sees the parameters and they fund exactly the same parameter and orders. C language is not allowed this, but C++ is possible.
+
+3.If I need to change my design to upgrade my coding, I would get SIN number as string class and then I will change the ASCII code.
+
+4.In this workshop I have learned  how to define private and public class effectively.

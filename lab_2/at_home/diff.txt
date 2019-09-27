@@ -1,0 +1,14 @@
+In line number 18 of your output:
+The output should be:
+The 1st Kingdom entered is
+        ^
+But your output is: 
+The 1st kingdom entered is
+        ^
+
+Unmatched character details:
+The character in column 9 is supposed to be:
+  [K] ASCII code(75)
+but you printed
+  [k] ASCII code(107)
+

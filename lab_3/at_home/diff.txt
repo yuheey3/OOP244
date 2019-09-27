@@ -1,0 +1,14 @@
+In line number 25 of your output:
+The output should be:
+Please enter the year of your tax return (0 to quit): 2013
+^
+But your output is: 
+2013Please enter the year of your tax return (0 to quit): 
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [P] ASCII code(80)
+but you printed
+  [2] ASCII code(50)
+

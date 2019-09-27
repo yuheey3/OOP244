@@ -1,0 +1,59 @@
+/***********************************************************************
+// OOP244 Workshop 1: Compiling modular source code
+// File w1_in_lab.cpp
+// Version 1.0
+// Date 2016/01/10
+// Author       Fardad Soleimanloo
+// Description
+// This provides some source code in a single file to break
+// into modules and compile together
+//
+// Revision History
+// -----------------------------------------------------------
+// Name    YUKI WAKA        Date MAY 16
+// Reason
+// Fardad
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+1. The purpose of namespace is that it allows us to group named entities. When develpers making code, they could use the same identifier.
+Using namespace, we can avoid naming conflicts. Header files is to make organized program. Without header files, the program should working,
+but when you put the prototype and definitions to the header files, it looks more readable and easy to understand for other developers.
+
+2. Header files has just prototype which contains return type, type identifier and parameters. It is not enough to compile the code. 
+To compile the program, main source file is needed, otherwise, it can't be executed.
+
+3. When we use C++, usally there are one main source file and other .cpp source files. main source file contains main codes, it should be 
+readable and calls other functions if it is needed. Other .cpp source files include the function definitions. If we include .cpp files in
+another files, it will cause multiple definition errors.  
+
+4. In this workshop, I have learned how to organize source code into modules. Inside the header file, It is better to include 
+prototype to make readable. Also I leaned how important to prevent multiple includes using #ifndef NAMESPACE_HEADERFILENAME_H, 
+#define NAMESPACE_HEADERFILENAME_H and #endif. This concept was difficult to understand at first, but now I am comfortable with it.
+It can surround the prototypes in the header files. Furthermore, I don't need to worry about using the same name 
+identifier with other developers since I can use namespace which allows us to group named entities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

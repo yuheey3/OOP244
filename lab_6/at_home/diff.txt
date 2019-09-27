@@ -1,0 +1,14 @@
+In line number 7 of your output:
+The output should be:
+John Doe
+^
+But your output is: 
+-John Doe
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [J] ASCII code(74)
+but you printed
+  [-] ASCII code(45)
+

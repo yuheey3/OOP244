@@ -1,0 +1,14 @@
+In line number 14 of your output:
+The output should be:
+b + d equals 5/6
+             ^
+But your output is: 
+b + d equals no fraction stored
+             ^
+
+Unmatched character details:
+The character in column 14 is supposed to be:
+  [5] ASCII code(53)
+but you printed
+  [n] ASCII code(110)
+

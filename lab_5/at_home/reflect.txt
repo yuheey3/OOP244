@@ -1,0 +1,35 @@
+// Workshop 5: operator overloading
+// File: w5_at_home.cpp
+// Version: 2.1
+// Date: 2019/06/14
+// Author: Yuki Waka
+// Description:
+// This file tests in-lab section of your workshop
+/////////////////////////////////////////////
+
+
+1.By returning the Fraction object, we can avoid changing any variables in the called function.
+If I return a reference to a Fraction object, it might change any object that I don't expect.
+
+2.I made 'temp'to store the greatest common divisor temorary.If I don't use 'temp',
+the result is changed.
+ex) void Fraction::reduce() {
+	int temp = gcd();
+	this->denominator /= temp;
+	this->numerator /= temp;
+
+3.To minimize duplication, I used several times 'bool Fraction::isEmpty() const' function.
+This function checks the object is in safe empty state or not. When I make anothe function
+to calculate, I used isempty function first.
+
+4.In this workshop, I have learned how to access the current object from within a mamber funcion. ex)this. Also I used some overload an operator.
+
+
+*Quiz 5 Reflection
+
+3.What is a temporary object and when would you use one?
+I couldn't answer a temporary object correctly.
+I found the answer in the note.
+A temporary object has no name and is destroyed as the last step in evaluating
+the expression that contains its creation point.
+We can use this to access validation logic localized within one constructor.
