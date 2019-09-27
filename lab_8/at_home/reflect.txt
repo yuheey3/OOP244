@@ -1,0 +1,29 @@
+// Workshop 8 - Virtual Functions and Abstract Base Classes
+// File: w8_at_home.cpp
+// Version: 2.0
+// Date: 2020/07/20
+//Name: Yuki Waka  Date: 07/20
+///////////////////////////////////////////////////
+
+1.What is the difference between an abstract base class and a concrete class?
+
+An abstract class is one that has one or more pure virtual functions.
+while concrete class has no pure virtuals, also can be used to create an object.
+An abstract class  provides no implementation(s) for its pure virtual functions, 
+the compiler cannot instantiate the class.
+
+
+2.Identify the functions that shadow functions of the same name in your solution?
+
+I used derived classes to inherits iAccount. In this workshop, Account.h inherits iAccount.h,also
+ChequingAccount.h and SavingsAccount.h both inherits Account.h. 
+
+iAccount* CreateAccount(const char*, double); I used this function at Allocator.cpp.
+
+
+3.Explain what have you learned in this workshop.
+
+In this workshop, Ihave lerned how to define a pure virtual function.
+TO do that, I used 'virtual' keyword. ex) virtual bool credit(double) = 0;.
+Also I lerned how is work an abstract base class. This workshop was good practice for
+making inherit class as well.
