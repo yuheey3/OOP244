@@ -1,7 +1,7 @@
 # OOP244
 	
   
-## ourse Description:
+## Subject Description
 This subject introduces the student to object-oriented programming.
 The student learns to build reusable objects, encapsulate data and logic within a class, 
 inherit one class from another and implement polymorphism.  This subject uses the C++ programming 
